@@ -11,7 +11,7 @@ const SOCIAL_LABELS = {
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 px-6 bg-surface">
+    <section id="contact" className="py-28 px-6 bg-void">
       <div className="max-w-7xl mx-auto">
         <h2 className="section-heading">Contact</h2>
         <div className="section-divider" />

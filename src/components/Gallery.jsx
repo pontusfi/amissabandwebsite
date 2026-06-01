@@ -11,7 +11,7 @@ export default function Gallery() {
   const next = () => setActiveIndex((i) => (i + 1) % gallery.length)
 
   return (
-    <section id="gallery" className="py-28 px-6 bg-surface">
+    <section id="gallery" className="py-28 px-6 bg-void">
       <div className="max-w-7xl mx-auto">
         <h2 className="section-heading">Gallery</h2>
         <div className="section-divider" />

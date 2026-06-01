@@ -2,7 +2,7 @@ import merch from '../content/merch'
 
 export default function Merch() {
   return (
-    <section id="merch" className="py-28 px-6 bg-void">
+    <section id="merch" className="py-28 px-6 bg-surface">
       <div className="max-w-7xl mx-auto">
         <h2 className="section-heading">Merch</h2>
         <div className="section-divider" />

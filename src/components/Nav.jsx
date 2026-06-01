@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { label: 'About', href: '/#about' },
   { label: 'Music', href: '/#discography' },
   { label: 'Shows', href: '/#shows' },
+  { label: 'Videos', href: '/#videos' },
   { label: 'Gallery', href: '/#gallery' },
   { label: 'Merch', href: '/#merch' },
   { label: 'Contact', href: '/#contact' },
