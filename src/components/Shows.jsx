@@ -19,6 +19,7 @@ export default function Shows() {
         <h2 className="section-heading">Shows</h2>
         <div className="section-divider" />
 
+        <div className="w-full overflow-hidden">
         <a
           className="bit-widget-initializer"
           data-artist-name="id_15638162"
@@ -28,6 +29,7 @@ export default function Shows() {
           data-app-id="56f6b92de0736a98261c45d474a8e391"
           data-bit-logo-color="rgba(255,255,255,1)"
         />
+        </div>
       </div>
     </section>
   )

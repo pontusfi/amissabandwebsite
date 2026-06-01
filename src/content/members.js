@@ -7,9 +7,9 @@ const members = [
     name: 'PONTUS FILÉN',
     role: 'Lead Guitar',
     photo: '/members/pf.jpg',
-    shortBio: 'A short description shown on the band member card in the About section.',
+    shortBio: 'Pontus Filén, lead guitarist and studio producer.',
     fullBio: [
-      'Full biography paragraph one. Replace this placeholder text with the actual member biography.',
+      'Pontus Filén, our lead guitarist and producer. With influences rooted in metalcore and melodic death metal his playing and writing style brings a mix of precision and melodic intensity that defines a big part of our sound. Apart from the riffs and melodies, he’s also behind the production desk, shaping the songs from the ground up and making sure every track delivers both punch and atmosphere.',
       'Full biography paragraph two. Add as many paragraphs as needed.',
     ],
     // Paste the src URL from a Spotify embed iframe, e.g.:

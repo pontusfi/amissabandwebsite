@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Discography from '../components/Discography'
 import Shows from '../components/Shows'
+import Videos from '../components/Videos'
 import Gallery from '../components/Gallery'
 import Merch from '../components/Merch'
 import Contact from '../components/Contact'
@@ -17,6 +18,7 @@ export default function HomePage() {
         <About />
         <Discography />
         <Shows />
+        <Videos />
         <Gallery />
         <Merch />
         <Contact />
