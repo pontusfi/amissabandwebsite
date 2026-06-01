@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-void text-accent font-body antialiased;
+  }
+
+  ::selection {
+    background-color: rgba(196, 196, 196, 0.2);
+    color: #f0f0f0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #080808;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
+}
+
+/* Two-line trick: 100svh excludes the mobile browser chrome; 100vh is the fallback */
+.hero-section {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+@layer components {
+  .section-heading {
+    @apply font-display text-5xl md:text-6xl tracking-widest2 text-accent-bright uppercase;
+  }
+
+  .section-divider {
+    @apply w-12 h-px bg-site-border mt-3 mb-10;
+  }
+
+  .btn-outline {
+    @apply border border-site-border text-accent text-xs tracking-widest2 uppercase px-5 py-2.5
+           transition-colors duration-200 hover:border-accent hover:text-accent-bright;
+  }
+
+  .nav-link {
+    @apply text-xs tracking-widest2 uppercase text-accent-dim transition-colors duration-200
+           hover:text-accent-bright;
+  }
+}
